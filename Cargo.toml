@@ -1,10 +1,13 @@
 [package]
-name = "arch-build"
+name = "sigmaos-arch-build"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-build component - Inspired by Arch Linux and Debian"
+description = "Build system for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-build"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_build"
+path = "src/lib.rs"
