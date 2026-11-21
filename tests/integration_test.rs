@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-build
+// Integration test for SigmaOS-build
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_build::{BuildConfig, BuildSystem, BuildType};
+use sigmaos_build::{BuildConfig, BuildSystem, BuildType};
 
 #[test]
 fn crate_links_and_runs() {

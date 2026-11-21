@@ -1,4 +1,4 @@
-# SigmaOS-arch-build
+# SigmaOS-build
 
 GitHub description is a placeholder; component scope remains unclassified.
 
